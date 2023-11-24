@@ -3,14 +3,14 @@ import Link from "next/link";
 export default async function Project() {
     return (
         <>
-            <body className="bg-back bg-cover">
+            <body className="bg-back bg-cover backdrop-blur-sm min-h-screen">
                 <header className='flex justify-start'>
-                    <Link href="/" className='text-6xl material-symbols-outlined'>arrow_back</Link>
+                    <Link href="/" className='text-6xl hover:text-slate-100 material-symbols-outlined'>arrow_back</Link>
                 </header>
                 <div className='flex justify-center pt-20'>
                     <h1 className='animate-typing overflow-hidden whitespace-nowrap text-center text-5xl'>Featured Work</h1>
                 </div>
-                <div className="grid grid-cols-2 gap-4 backdrop-blur-sm">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 backdrop-blur-md">
                     <div>
                         <img className="h-auto max-w-full rounded-lg" src="/project1.png" alt=""/>
                     </div>
