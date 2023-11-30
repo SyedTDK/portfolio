@@ -13,7 +13,7 @@ export default async function About() {
             <div className='flex justify-center p-5'>
                 <p className='text-xl md:text-2xl font-bold backdrop-blur-md text-center'>Hey, I’m Syed and I am an aspiring Frontend developer pursuing a Bachelor of Engineering in Computer Engineering from The City College of New York. 
                 I have honed my technical skills through a series of relevant courses and hands-on projects. I am proficient in various programming 
-                languages, including HTML, CSS, JavaScript, TypeScript, and Java and I am familiar with front-end and back-end technologies such as Next.js, React, 
+                languages, including HTML5, CSS, JavaScript, TypeScript, and Java and I am familiar with front-end and back-end technologies such as Next.js, React, 
                 Tailwind CSS, Bootstrap, Node.js, and Firebase.
                 </p>
             </div>
