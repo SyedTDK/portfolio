@@ -8,7 +8,7 @@ export default async function Contact() {
                     <Link href="/" className='text-6xl hover:text-slate-100 material-symbols-outlined'>arrow_back</Link>
             </header>
             <div className='flex justify-center pt-20'>
-                <h1 className='animate-typing overflow-hidden whitespace-nowrap text-center text-5xl'>Contact</h1>
+                <h1 className='animate-typing overflow-hidden whitespace-nowrap text-center text-5xl'>Connect with me!</h1>
             </div>
             <div className='flex justify-center p-5'>
                 <p className='text-center backdrop-blur-md text-xl md:text-3xl font-bold'>
