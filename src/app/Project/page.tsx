@@ -16,7 +16,7 @@ export default async function Project() {
                     </div>
                     <div className="justify-center">
                         <p className="font-bold">Well Being: A mental health web platform offering users daily thoughtful prompts for self-reflection. Users can sign up manually or via their Google account to save their responses for future viewing purposes. 
-                            Developed using NextJS, Tailwind CSS, Next-auth, Google Cloud.
+                            Developed using NextJS, Tailwind CSS, Next-auth, and Firebase.
                             <br /> <a href='https://github.com/SyedTDK/wellbeing' target="_blank" className='hover:underline text-2xl'>Github<span className="material-symbols-outlined">north_east</span></a>
                         </p>
                     </div>
