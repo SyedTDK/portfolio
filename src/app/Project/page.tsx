@@ -17,6 +17,7 @@ export default async function Project() {
                     <div className="justify-center">
                         <p className="font-bold">Well Being: A dynamic and interactive web application developed using Next.js, a React framework. This project focused on engaging users through personalized daily prompts, allowing them to sign up, log in, submit responses, and revisit their entries.
                             <br /> <a href='https://github.com/SyedTDK/wellbeing' target="_blank" className='hover:underline text-2xl'>Github<span className="material-symbols-outlined">north_east</span></a>
+                            <br /> <a href='https://wellbeing-theta.vercel.app/' target="_blank" className='hover:underline text-2xl'>Visit Website<span className="material-symbols-outlined">north_east</span></a>
                         </p>
                     </div>
                     <div>
