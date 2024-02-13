@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default async function Contact() {
     return (
         <>
-        <body className='bg-back bg-cover backdrop-blur-sm min-h-screen'>
+        <body className='bg-back bg-cover backdrop-blur-sm min-h-screen overscroll-none'>
             <header className='flex justify-start'>
                     <Link href="/" className='text-6xl hover:text-slate-100 material-symbols-outlined'>arrow_back</Link>
             </header>

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default async function Home() {
   return (
     <>
-      <body className='min-h-screen bg-back bg-cover backdrop-blur-sm'>
+      <body className='min-h-screen bg-back bg-cover backdrop-blur-sm overscroll-none'>
         <header className='flex justify-center container mx-auto'>
             <h1 className='select-none hover:scale-110 content-center animate-typing overflow-hidden whitespace-nowrap text-center font-bold text-5xl md:text-8xl '>Syed Faizullah</h1>
         </header>
