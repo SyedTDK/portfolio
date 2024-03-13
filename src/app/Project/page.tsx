@@ -11,22 +11,23 @@ export default async function Project() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 backdrop-blur-md">
                     <div>
+                        <img className="h-auto max-w-full rounded-lg" src="/project2.png" alt=""/>
+                    </div>
+                    <div className="justify-center">
+                        <p className="font-bold">HealthMe (2024): A health assistant platform that provides AI chatbot for personal health and tracking health data. Developed using Nextjs for frontend and Python for backend.
+                            <br /> <a href='https://healthai.vercel.app/' target="_blank" className='hover:underline text-2xl'>Visit Website<span className="material-symbols-outlined">north_east</span></a>
+                        </p>
+                    </div>
+                    <div>
                         <img className="h-auto max-w-full rounded-lg" src="/project1.png" alt=""/>
                     </div>
                     <div className="justify-center">
-                        <p className="font-bold">Well Being: A dynamic and interactive web application developed using Next.js, a React framework. This project focused on engaging users through meditations, personalized daily prompts, allowing them to sign up, log in, submit responses, and revisit their entries.
+                        <p className="font-bold">WellBeing (2023): A dynamic and interactive web application developed using Next.js, a React framework. This project focused on engaging users through meditations, personalized daily prompts, allowing them to sign up, log in, submit responses, and revisit their entries.
                             <br /> <a href='https://github.com/SyedTDK/wellbeing' target="_blank" className='hover:underline text-2xl'>Github<span className="material-symbols-outlined">north_east</span></a>
                             <br /> <a href='https://wellbeing-theta.vercel.app/' target="_blank" className='hover:underline text-2xl'>Visit Website<span className="material-symbols-outlined">north_east</span></a>
                         </p>
                     </div>
-                    <div>
-                        <img className="h-auto max-w-full rounded-lg" src="/project2.png" alt=""/>
-                    </div>
-                    <div className="justify-center">
-                        <p className="font-bold">HealthMe: A health assistant platform that provides AI chatbot for personal health and tracking health data. Developed using Nextjs for frontend and Python for backend.
-                            <br /> <a href='https://healthai.vercel.app/' target="_blank" className='hover:underline text-2xl'>Visit Website<span className="material-symbols-outlined">north_east</span></a>
-                        </p>
-                    </div>
+                    
                 </div>
                 
              </body>
