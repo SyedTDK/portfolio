@@ -2,7 +2,6 @@ import Link from "next/link";
 
 export default async function Project() {
     return (
-        <>
             <body className="bg-back bg-cover backdrop-blur-sm min-h-screen overscroll-none">
                 <header className='flex justify-start'>
                     <Link href="/" className='text-6xl hover:text-slate-100 material-symbols-outlined'>arrow_back</Link>
@@ -21,11 +20,15 @@ export default async function Project() {
                         </p>
                     </div>
                     <div>
-                        
+                        <img className="h-auto max-w-full rounded-lg" src="/project2.png" alt=""/>
+                    </div>
+                    <div className="justify-center">
+                        <p className="font-bold">HealthMe: A health assistant platform that provides AI chatbot for personal health and tracking health data. Developed using Nextjs for frontend and Python for backend.
+                            <br /> <a href='https://healthai.vercel.app/' target="_blank" className='hover:underline text-2xl'>Visit Website<span className="material-symbols-outlined">north_east</span></a>
+                        </p>
                     </div>
                 </div>
-             
+                
              </body>
-        </>
     )
 }
