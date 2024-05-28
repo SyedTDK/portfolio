@@ -4,9 +4,9 @@ import Link from 'next/link'
 export default async function Home() {
   return (
     <>
-      <body className='min-h-screen bg-back bg-cover backdrop-blur-sm overscroll-none'>
-        <header className='flex justify-center container mx-auto'>
-            <h1 className='select-none hover:scale-110 content-center animate-typing overflow-hidden whitespace-nowrap text-center font-bold text-5xl md:text-8xl '>Syed Faizullah</h1>
+      <body className='min-h-screen  backdrop-blur-sm overscroll-none'>
+        <header className='flex justify-center container mx-auto leading-loose pb-0 mb-0 h-auto'>
+            <h1 className='select-none hover:scale-110 content-center animate-typing overflow-hidden whitespace-nowrap text-center font-bold text-5xl md:text-8xl  '>Syed Faizullah</h1>
         </header>
         <div className='p-20'>
           <p className='select-none text-center font-semibold text-3xl'>Web Developer and Data Analyst</p> 

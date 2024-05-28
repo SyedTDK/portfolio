@@ -8,9 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'back': "url(back.avif)",
-      },
       fontFamily: {
         sans: ['var(--font-playfair)'],
       },
