@@ -5,7 +5,8 @@ import './globalicons.css'
 
 const sevillana = Sevillana({
   subsets: ['latin'],
-  weight: '400'
+  weight: '400',
+  display: 'swap',
 })
  
 export const metadata: Metadata = {
@@ -18,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-        <body className={sevillana.className}>{children}</body>
-      </html>
+    <html lang="en" className={sevillana.className}>
+      <body>{children}</body>
+    </html>
   )
 }
