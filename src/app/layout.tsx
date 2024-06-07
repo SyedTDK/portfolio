@@ -1,13 +1,10 @@
 import type { Metadata } from 'next'
-import { Sevillana } from 'next/font/google'
 import './globals.css'
 import './globalicons.css'
+import { inter } from './fonts'
 
-const sevillana = Sevillana({
-  subsets: ['latin'],
-  weight: '400',
-  display: 'swap',
-})
+
+
  
 export const metadata: Metadata = {
   title: 'Syed Faizullah',
@@ -19,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={sevillana.className}>
+    <html lang="en" className={inter.className}>
       <body>{children}</body>
     </html>
   )
