@@ -12,7 +12,7 @@ return (
                 </Link>
                 <div className="flex items-center lg:order-2">
                     <Link href="/" className="focus:ring-4 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 hover:bg-gray-700 focus:outline-none focus:ring-gray-800">Home</Link>
-                    <Link href="/Project" className="focus:ring-4 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 hover:bg-gray-700 focus:outline-none focus:ring-gray-800">Work</Link>
+                    <Link href="/Project" className="focus:ring-4 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 hover:bg-gray-700 focus:outline-none focus:ring-gray-800">Projects</Link>
                 </div>
             </div>
         </nav>
