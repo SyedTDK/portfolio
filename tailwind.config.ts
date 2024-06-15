@@ -28,10 +28,10 @@ const config: Config = {
           "100%": {
             borderColor: "white"
           }  
-        }
+        },
       },
       animation: {
-        typing: "typing 4s steps(26) alternate, blink .3s infinite"
+        typing: "typing 4s steps(26) alternate, blink .3s infinite",
       },
     },
   },
