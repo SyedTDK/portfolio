@@ -8,7 +8,7 @@ export default async function Home() {
     <>
       <Header />
         <main className='flex items-center justify-center px-4 mx-auto max-w-screen-xl min-h-screen text-center lg:px-12'>
-          <div className='w-full text-2xl'>
+          <div className='w-full text-2xl text-left'>
         
             Hello <span className='wave'>&#128075;</span> I’m Syed Faizullah. I work as an Adminstrator at the <a className='text-yellow-500 hover:text-yellow-700' href="https://steminstitutenyc.org/" target='_blank'>Stem Institute</a>, an academic enrichment organization. Previously, I worked as a Web Manager at <a className=' text-blue-500 hover:text-blue-700' href='https://stem-sc.com/'>Stem Communities</a>, a social media platform designed as a location for academic support, tutoring, and social interaction. I enjoy working with technology and analyzing and solving complex problems. 
           
